@@ -16,6 +16,7 @@ public class JavaBdd01 {
                 //System.out.println("Conexion Establecida!!");
                 Statement stmt=con.createStatement();
                 System.out.println("Ingrese id a eliminar:");
+                System.out.println("soy un infiltrado:");//tenemos un infiltrado pibe
                 int id=Integer.parseInt(in.nextLine());
                 stmt.executeUpdate("delete from usuarios where usuario_id='"+id+"'");
                 System.out.println("Usuario Eliminado!!");
